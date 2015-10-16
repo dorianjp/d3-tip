@@ -241,7 +241,7 @@
     function initNode() {
       var node = d3.select(document.createElement('div'))
       node.style({
-        position: 'relative',
+        position: 'relative', 
         top: 0,
         opacity: 0,
         'pointer-events': 'none',
