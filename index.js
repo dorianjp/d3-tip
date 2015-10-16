@@ -241,11 +241,12 @@
     function initNode() {
       var node = d3.select(document.createElement('div'))
       node.style({
-        position: 'relative', 
+        position: 'absolute',
         top: 0,
         opacity: 0,
         'pointer-events': 'none',
-        'box-sizing': 'border-box'
+        'box-sizing': 'border-box',
+        'display':'hidden'
       })
 
       return node.node()
